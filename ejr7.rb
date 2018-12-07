@@ -28,7 +28,8 @@ if opcion == 2
   loop do
     print 'ingresa el producto a eliminar'
     inventario.delete gets.chomp
-    print 'desea eliminar otro producto? [si/ 7 para salir]'
+    puts inventario
+    print 'desea eliminar otro producto? [s/7 para salir]'
     break if opcion == '7'
   end
 end

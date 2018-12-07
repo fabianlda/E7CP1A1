@@ -7,7 +7,7 @@ puts personas_hash
 
 def promedio(hash)
   suma = 0
-  hash.each{|key,value| suma += value}
-  suma/hash.count.to_i
+  hash.each { |_key, value| suma += value }
+  suma / hash.count.to_i
 end
 puts promedio(personas_hash)
